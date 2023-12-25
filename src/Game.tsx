@@ -122,7 +122,7 @@ function Game(props: GameProps) {
   const [hint, setHint] = useState<string>(
     challengeError
       ? `Invalid challenge string, playing random game.`
-      : (gameState === GameState.AlreadyPlayed ? (`You ` + (stats.lostGameLastPlayed ? `lost` : `won`) + `! The answer was ` + target.toUpperCase() + `. Come back tomorrow for the next game.`) : `Make your first guess!`)
+      : (gameState === GameState.AlreadyPlayed ? (`You ` + (stats.lostGameLastPlayed ? `lost` : `won`) + `! The answer was ` + target.toUpperCase() + `. Now go find your present there.`) : `Make your first guess!`)
   );
 
   // const currentSeedParams = () =>
@@ -219,7 +219,7 @@ function Game(props: GameProps) {
       setCurrentGuess((guess) => "");
 
       const gameOver = (verbed: string) =>
-        `You ${verbed}! The answer was ${target.toUpperCase()}.`;
+        `You ${verbed}! The answer was ${target.toUpperCase()}. Now go find your present there.`;
 
       if (currentGuess === target) {
         setHint(gameOver("won"));
