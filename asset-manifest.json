@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cluedle/static/css/main.6908b9a5.css",
+    "main.js": "/cluedle/static/js/main.70370745.js",
+    "index.html": "/cluedle/index.html",
+    "main.6908b9a5.css.map": "/cluedle/static/css/main.6908b9a5.css.map",
+    "main.70370745.js.map": "/cluedle/static/js/main.70370745.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6908b9a5.css",
+    "static/js/main.70370745.js"
+  ]
+}
